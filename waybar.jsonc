@@ -1,0 +1,10 @@
+// Merge this entry into your existing Waybar config; add custom/cycle-timer to modules-right.
+"custom/cycle-timer": {
+  "exec": "$HOME/.local/bin/cycle-timer waybar",
+  "return-type": "json",
+  "restart-interval": 2,
+  "tooltip": true,
+  "on-click": "$HOME/.local/bin/cycle-timer ui",
+  "on-click-right": "$HOME/.local/bin/cycle-timer toggle",
+  "on-click-middle": "$HOME/.local/bin/cycle-timer stop"
+}

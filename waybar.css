@@ -1,0 +1,4 @@
+#custom-cycle-timer { padding: 0 10px; }
+#custom-cycle-timer.rest { color: #a6e3a1; }
+#custom-cycle-timer.paused { color: #f9e2af; }
+#custom-cycle-timer.stopped { opacity: 0.65; }

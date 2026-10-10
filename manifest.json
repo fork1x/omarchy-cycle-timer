@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "local.cycle-timer",
+  "name": "Cycle Timer",
+  "version": "1.4.1",
+  "author": "AI-generated with OpenAI ChatGPT/Codex; directed and tested by fork1x",
+  "description": "Repeating reminder with breaks, pause and a shared Waybar backend",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Cycle Timer",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
